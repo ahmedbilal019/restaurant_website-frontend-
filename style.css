@@ -1,0 +1,252 @@
+body{
+    margin: 2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    height: 600%;
+    border: 2px solid black;
+    background-color:#221b1bee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: visible;
+    color: white;
+    border-radius: 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation img{
+    border: 2px solid white;
+    border-radius: 300px;
+    width: 90px;
+    height: 90px;
+    margin-left: 40px;
+    margin-top: 10px;  
+}
+ul{
+    /* margin-left: 80px; */
+    margin-top: 30px;
+}
+.navigation ul li{
+    display: inline;
+    margin: 10px;
+}
+.navigation ul li a{
+    display: inline;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.navigation a:hover{
+ color: blue;
+ font-weight: bold;
+ text-decoration: underline;
+}
+
+
+.home{
+    display: flex;
+}
+.home img{
+    border: black;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.home p{
+    margin-right: 35px;
+    margin-top: 130px;
+    margin-left: -530px;
+    width: 50%;
+    line-height: 30px;
+    font-size: large;
+}
+h1{
+   font-weight: bolder;
+    margin: 50px;
+    margin-top: 30px;
+    margin-left: 112px;
+    text-align: center;
+    width: 600px;
+    font-size: xxx-large;
+   
+}
+h2{
+    text-align: center;
+}
+.category img{
+    
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid rgba(0, 0, 255, 0.74);
+    border-radius: 8px;
+    box-shadow: 10px 30px 30px gray;
+}
+.category{
+    height: 700px;
+}
+
+
+.menucard{
+   margin-top: 40px;
+   border-radius: 70px;
+   border: 2px solid white;
+   box-shadow:2px 0px 20px 14px lightgray;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 70px;
+}
+
+
+.about p{
+    background-color: rgba(81, 143, 194, 0.274);
+    padding: 150px;
+    border-radius: 30px;
+    font-size:larger;
+    line-height: 35px;
+    font-weight: normal;
+
+}
+form{
+    margin-left: 325px;
+    background-color:rgba(81, 143, 194, 0.356) ;
+    border-radius:10px;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 10px 30px 70px gray;
+    
+}
+.reservation p{
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-style: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+#username{
+    margin-left: 83px;
+}
+#phone{
+    margin-left: 20px;
+}
+#seats{
+    margin-left: 52px;
+}
+.footer{
+    color: white;
+    background-color:#221b1bee;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* -------------for small mobile sereen----------- */
+@media (max-width:320px) {
+.header{
+      width: 100vw;
+      padding-right: 45px;
+   } 
+.home{
+    text-align: justify;
+   }
+.home p{
+    margin-top: 120px;
+}
+.home img{
+   margin-top: 154px;
+   /* margin-left: 108px; */
+}
+h1{
+    margin-left: 210px;
+}
+h2{
+    text-align: center;
+}
+.menucard{
+    width: 135%;
+   margin-left: 355px;
+}
+.category img{
+   margin-left: 170px;
+   width: 600px;
+   height: 400px;
+}
+.about{
+    margin-top: 500%;
+}
+
+.about p{
+    width: 200vw;
+    margin-left: 100px;
+    align-items: center;
+}
+.reservation form{
+    width: 200vw;
+    margin-left: 200px;
+}
+.reservation p{
+    width: max-content;
+}
+.footer{
+    width: 363%;
+}
+}
+/* --------------for medium mobile screen-------- */
+@media (max-width:375px){
+   
+    .header{
+        width: 350vw;
+        padding-right: 10px;
+        
+       }
+    .home img{
+        margin-top: 90px;
+     }
+   
+     h1{
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+    .menucard{
+    width: 135%;
+   margin-left: 355px;
+}
+     .category img{
+        margin-left: 70vw;
+        width: 600px;
+        height: 400px;
+     }
+     .about{
+        margin-top: 500%;
+    }
+    .about p{
+        width: 200vw;
+        margin-left: 100px;
+        align-items: center;
+    }
+    .reservation form{
+        width: 200vw;
+        margin-left: 200px;
+    }
+    .reservation p{
+        width: max-content;
+    }
+    .footer{
+        width: 364%;
+    }
+}
