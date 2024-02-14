@@ -163,17 +163,20 @@ form{
    } 
 .home{
     text-align: justify;
+  
    }
 .home p{
     margin-top: 120px;
+    font-size: 7vw;
 }
 .home img{
    margin-top: 154px;
    /* margin-left: 108px; */
 }
-h1{
-    margin-left: 210px;
-}
+/* h1{
+    margin-left: 150px;
+    margin-top: 14px;
+} */
 h2{
     text-align: center;
 }
@@ -194,13 +197,15 @@ h2{
     width: 200vw;
     margin-left: 100px;
     align-items: center;
+    font-size: 8vw;
 }
 .reservation form{
     width: 200vw;
     margin-left: 200px;
+    font-size: 3vw;
 }
 .reservation p{
-    width: max-content;
+    width: fit-content;
 }
 .footer{
     width: 363%;
@@ -208,23 +213,31 @@ h2{
 }
 /* --------------for medium mobile screen-------- */
 @media (max-width:375px){
-   
+   .navigation{
+    font-size: 8vw;
+   }
     .header{
         width: 350vw;
         padding-right: 10px;
         
        }
     .home img{
-        margin-top: 90px;
+        margin-top: 35vh;
+
      }
+     .home p{
+        /* margin-top: 120px; */
+        font-size: 7.5vw;
+    }
    
      h1{
-        margin-left: 200px;
-        margin-top: -30px;
+        margin-left: 140px;
+        margin-top: 19px;
     }
     .menucard{
     width: 135%;
    margin-left: 355px;
+   font-size: 8vw;
 }
      .category img{
         margin-left: 70vw;
@@ -238,15 +251,20 @@ h2{
         width: 200vw;
         margin-left: 100px;
         align-items: center;
+        font-size: 8vw;
     }
     .reservation form{
         width: 200vw;
         margin-left: 200px;
     }
     .reservation p{
-        width: max-content;
+        width: 350%;
+        font-size: 8vw;
+
     }
     .footer{
         width: 364%;
+        font-size: 8vw;
+        align-items: baseline;
     }
 }
